@@ -1,0 +1,24 @@
+FLUJO DE INFORMACIÓN DEL SISTEMA
+
+             USUARIO
+                ↓
+        INICIO DE SESIÓN
+                ↓
+        PHP VERIFICA DATOS
+                ↓
+          ¿QUÉ ROL TIENE?
+           ↙️          ↘️
+     USUARIO          ADMIN
+        ↓               ↓
+ BUSCAR PRODUCTOS   AGREGAR
+                    EDITAR
+                   ELIMINAR
+           ↘️          ↙️
+          BASE DE DATOS
+             MySQL
+                ↓
+        PHP PROCESA DATOS
+                ↓
+       RESULTADO EN PANTALLA
+                ↓
+          CERRAR SESIÓN
